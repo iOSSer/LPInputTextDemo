@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD87AA21BA2618E00C8FBEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD87AA11BA2618E00C8FBEE /* main.m */; };
+		FAD87AA51BA2618E00C8FBEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD87AA41BA2618E00C8FBEE /* AppDelegate.m */; };
+		FAD87AA81BA2618E00C8FBEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD87AA71BA2618E00C8FBEE /* ViewController.m */; };
+		FAD87AAB1BA2618E00C8FBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD87AA91BA2618E00C8FBEE /* Main.storyboard */; };
+		FAD87AAD1BA2618E00C8FBEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD87AAC1BA2618E00C8FBEE /* Images.xcassets */; };
+		FAD87AB01BA2618E00C8FBEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD87AAE1BA2618E00C8FBEE /* LaunchScreen.xib */; };
+		FAD87ABC1BA2618F00C8FBEE /* LPInputTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD87ABB1BA2618F00C8FBEE /* LPInputTextDemoTests.m */; };
+		FAD87AC71BA261DA00C8FBEE /* LPInputToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD87AC61BA261DA00C8FBEE /* LPInputToolView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD87AB61BA2618F00C8FBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD87A941BA2618E00C8FBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD87A9B1BA2618E00C8FBEE;
+			remoteInfo = LPInputTextDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD87A9C1BA2618E00C8FBEE /* LPInputTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPInputTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD87AA01BA2618E00C8FBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD87AA11BA2618E00C8FBEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAD87AA31BA2618E00C8FBEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAD87AA41BA2618E00C8FBEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAD87AA61BA2618E00C8FBEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAD87AA71BA2618E00C8FBEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAD87AAA1BA2618E00C8FBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD87AAC1BA2618E00C8FBEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAD87AAF1BA2618E00C8FBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAD87AB51BA2618F00C8FBEE /* LPInputTextDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPInputTextDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD87ABA1BA2618F00C8FBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD87ABB1BA2618F00C8FBEE /* LPInputTextDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPInputTextDemoTests.m; sourceTree = "<group>"; };
+		FAD87AC51BA261DA00C8FBEE /* LPInputToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPInputToolView.h; sourceTree = "<group>"; };
+		FAD87AC61BA261DA00C8FBEE /* LPInputToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPInputToolView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD87A991BA2618E00C8FBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD87AB21BA2618F00C8FBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD87A931BA2618E00C8FBEE = {
+			isa = PBXGroup;
+			children = (
+				FAD87A9E1BA2618E00C8FBEE /* LPInputTextDemo */,
+				FAD87AB81BA2618F00C8FBEE /* LPInputTextDemoTests */,
+				FAD87A9D1BA2618E00C8FBEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD87A9D1BA2618E00C8FBEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD87A9C1BA2618E00C8FBEE /* LPInputTextDemo.app */,
+				FAD87AB51BA2618F00C8FBEE /* LPInputTextDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD87A9E1BA2618E00C8FBEE /* LPInputTextDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAD87AA31BA2618E00C8FBEE /* AppDelegate.h */,
+				FAD87AA41BA2618E00C8FBEE /* AppDelegate.m */,
+				FAD87AA61BA2618E00C8FBEE /* ViewController.h */,
+				FAD87AA71BA2618E00C8FBEE /* ViewController.m */,
+				FAD87AC51BA261DA00C8FBEE /* LPInputToolView.h */,
+				FAD87AC61BA261DA00C8FBEE /* LPInputToolView.m */,
+				FAD87AA91BA2618E00C8FBEE /* Main.storyboard */,
+				FAD87AAC1BA2618E00C8FBEE /* Images.xcassets */,
+				FAD87AAE1BA2618E00C8FBEE /* LaunchScreen.xib */,
+				FAD87A9F1BA2618E00C8FBEE /* Supporting Files */,
+			);
+			path = LPInputTextDemo;
+			sourceTree = "<group>";
+		};
+		FAD87A9F1BA2618E00C8FBEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD87AA01BA2618E00C8FBEE /* Info.plist */,
+				FAD87AA11BA2618E00C8FBEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD87AB81BA2618F00C8FBEE /* LPInputTextDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD87ABB1BA2618F00C8FBEE /* LPInputTextDemoTests.m */,
+				FAD87AB91BA2618F00C8FBEE /* Supporting Files */,
+			);
+			path = LPInputTextDemoTests;
+			sourceTree = "<group>";
+		};
+		FAD87AB91BA2618F00C8FBEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD87ABA1BA2618F00C8FBEE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD87A9B1BA2618E00C8FBEE /* LPInputTextDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD87ABF1BA2618F00C8FBEE /* Build configuration list for PBXNativeTarget "LPInputTextDemo" */;
+			buildPhases = (
+				FAD87A981BA2618E00C8FBEE /* Sources */,
+				FAD87A991BA2618E00C8FBEE /* Frameworks */,
+				FAD87A9A1BA2618E00C8FBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPInputTextDemo;
+			productName = LPInputTextDemo;
+			productReference = FAD87A9C1BA2618E00C8FBEE /* LPInputTextDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD87AB41BA2618F00C8FBEE /* LPInputTextDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD87AC21BA2618F00C8FBEE /* Build configuration list for PBXNativeTarget "LPInputTextDemoTests" */;
+			buildPhases = (
+				FAD87AB11BA2618F00C8FBEE /* Sources */,
+				FAD87AB21BA2618F00C8FBEE /* Frameworks */,
+				FAD87AB31BA2618F00C8FBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD87AB71BA2618F00C8FBEE /* PBXTargetDependency */,
+			);
+			name = LPInputTextDemoTests;
+			productName = LPInputTextDemoTests;
+			productReference = FAD87AB51BA2618F00C8FBEE /* LPInputTextDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD87A941BA2618E00C8FBEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = lipeng;
+				TargetAttributes = {
+					FAD87A9B1BA2618E00C8FBEE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FAD87AB41BA2618F00C8FBEE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FAD87A9B1BA2618E00C8FBEE;
+					};
+				};
+			};
+			buildConfigurationList = FAD87A971BA2618E00C8FBEE /* Build configuration list for PBXProject "LPInputTextDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD87A931BA2618E00C8FBEE;
+			productRefGroup = FAD87A9D1BA2618E00C8FBEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD87A9B1BA2618E00C8FBEE /* LPInputTextDemo */,
+				FAD87AB41BA2618F00C8FBEE /* LPInputTextDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD87A9A1BA2618E00C8FBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD87AAB1BA2618E00C8FBEE /* Main.storyboard in Resources */,
+				FAD87AB01BA2618E00C8FBEE /* LaunchScreen.xib in Resources */,
+				FAD87AAD1BA2618E00C8FBEE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD87AB31BA2618F00C8FBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD87A981BA2618E00C8FBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD87AA81BA2618E00C8FBEE /* ViewController.m in Sources */,
+				FAD87AC71BA261DA00C8FBEE /* LPInputToolView.m in Sources */,
+				FAD87AA51BA2618E00C8FBEE /* AppDelegate.m in Sources */,
+				FAD87AA21BA2618E00C8FBEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD87AB11BA2618F00C8FBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD87ABC1BA2618F00C8FBEE /* LPInputTextDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD87AB71BA2618F00C8FBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD87A9B1BA2618E00C8FBEE /* LPInputTextDemo */;
+			targetProxy = FAD87AB61BA2618F00C8FBEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD87AA91BA2618E00C8FBEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD87AAA1BA2618E00C8FBEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD87AAE1BA2618E00C8FBEE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD87AAF1BA2618E00C8FBEE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD87ABD1BA2618F00C8FBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD87ABE1BA2618F00C8FBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD87AC01BA2618F00C8FBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPInputTextDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAD87AC11BA2618F00C8FBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPInputTextDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAD87AC31BA2618F00C8FBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LPInputTextDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPInputTextDemo.app/LPInputTextDemo";
+			};
+			name = Debug;
+		};
+		FAD87AC41BA2618F00C8FBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LPInputTextDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPInputTextDemo.app/LPInputTextDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD87A971BA2618E00C8FBEE /* Build configuration list for PBXProject "LPInputTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD87ABD1BA2618F00C8FBEE /* Debug */,
+				FAD87ABE1BA2618F00C8FBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD87ABF1BA2618F00C8FBEE /* Build configuration list for PBXNativeTarget "LPInputTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD87AC01BA2618F00C8FBEE /* Debug */,
+				FAD87AC11BA2618F00C8FBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAD87AC21BA2618F00C8FBEE /* Build configuration list for PBXNativeTarget "LPInputTextDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD87AC31BA2618F00C8FBEE /* Debug */,
+				FAD87AC41BA2618F00C8FBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD87A941BA2618E00C8FBEE /* Project object */;
+}
