@@ -38,8 +38,6 @@ static CGFloat maxHeight = 150;
     if ([self respondsToSelector:@selector(setAutomaticallyAdjustsScrollViewInsets:)]) {
         [self setAutomaticallyAdjustsScrollViewInsets:NO];
     }
-    
-    
 }
 
 - (void) keyboardWillShowNotification:(NSNotification *)notification
